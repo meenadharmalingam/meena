@@ -30,7 +30,7 @@ public class Booking_Flight_StepDefinition extends BaseClass {
 	@Given("^User view the info of the selected flight$")
 	public void user_view_the_selected_flight() throws Throwable {
 		SelectedFlightName = Lowest_Fastest_Selection_StepDefinition.Flight_Name;
-		System.out.println("\n The Selected Flight Name is : " + SelectedFlightName);
+		System.out.println("\n The Selected Flight is : " + SelectedFlightName);
 	}
 
 	@When("^User click on radio button of selected flight$")
